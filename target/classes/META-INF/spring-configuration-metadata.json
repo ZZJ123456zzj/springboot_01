@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "spring.jdbc",
+      "type": "com.yanxu.springboot.properties.JdbcProperties",
+      "sourceType": "com.yanxu.springboot.properties.JdbcProperties"
+    },
+    {
+      "name": "spring.jdbc.datasource",
+      "type": "com.yanxu.springboot.properties.DataSourceProperties2",
+      "sourceType": "com.yanxu.springboot.config.JdbcConfig",
+      "sourceMethod": "createDataSourceProperties()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.jdbc.data-source",
+      "type": "com.yanxu.springboot.properties.DataSourceProperties2",
+      "sourceType": "com.yanxu.springboot.properties.JdbcProperties"
+    },
+    {
+      "name": "spring.jdbc.type",
+      "type": "java.lang.String",
+      "sourceType": "com.yanxu.springboot.properties.JdbcProperties"
+    }
+  ],
+  "hints": []
+}
